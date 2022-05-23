@@ -4,8 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        ccustomstack.cpp \
         main.cpp
 
-HEADERS += \
-    ccustomstack.h
+macx: LIBS += -L$$PWD/lib/custom_stack/ -lcustom_stack
+
+INCLUDEPATH += $$PWD/lib/custom_stack
+DEPENDPATH += $$PWD/lib/custom_stack

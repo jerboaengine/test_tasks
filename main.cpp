@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     CCustomStack<int> testStack;
+    testStack.push(11);
     cout << "top1: " << testStack.top() << endl;
     cout << "min1: " << testStack.min() << endl;
     testStack.push(6);

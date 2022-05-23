@@ -1,10 +1,12 @@
 #ifndef CCUSTOMSTACK_H
 #define CCUSTOMSTACK_H
 
+#include "custom_stack_global.h"
+
 #include <forward_list>
 
 template <typename T>
-class CCustomStack
+class CUSTOM_STACK_EXPORT CCustomStack
 {
 private:
     struct SItemContainer {

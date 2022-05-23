@@ -1,7 +1,7 @@
 
 #include <gtest/gtest.h>
 #include <gmock/gmock-matchers.h>
-#include "../ccustomstack.h"
+#include "../lib/custom_stack/ccustomstack.h"
 
 using namespace testing;
 
